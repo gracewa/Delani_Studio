@@ -1,0 +1,17 @@
+.background_picture{
+    height: 600px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../assets/backgrounds/h_img.jpg');
+  }
+
+#welcome{
+  color: #ffffff;
+}
+
+#mouseClick{
+  padding-top: 100px;
+  position: absolute;
+}
