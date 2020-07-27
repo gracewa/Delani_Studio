@@ -36,6 +36,6 @@ JQUERY
 gracewanene@gmail.com
 
 **License**
-This software is licensed under MIT License
+This software is licensed under MIT License - https://spdx.org/licenses/MIT.html
 
 Copyright (c) 2020 Grace Wanene
