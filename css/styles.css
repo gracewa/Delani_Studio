@@ -31,8 +31,16 @@
   background-image: url('../assets/backgrounds/s_image.jpg');
 }
 
-#clickDesign, #clickDev, #clickProduct {
-  display: none;
+ img #designIcon, img #devIcon, img #productIcon {
+  visibility: visible;
+}
+
+#designCaption, #devCaption, #productCaption {
+  visibility: visible;
+}
+
+#clickDesign, #clickDev ,#clickProduct {
+  display:none;
 }
 
 textarea {
@@ -53,6 +61,10 @@ textarea {
 }
 
 #hoverWork1, #hoverWork2, #hoverWork3, #hoverWork4, #hoverWork5, #hoverWork6, #hoverWork7, #hoverWork8 {
-  color: #ffffff;
   display:none;
+}
+
+.thankYou {
+  display: none;
+  color: #ffffff;
 }

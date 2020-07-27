@@ -57,36 +57,40 @@
 </div>
 </section>
 
-<section id="whatWeDo">
+<section id="whatWeDo" class="align-items-center">
+<div class="container position-relative text-center">
 <div class="text-center">
 <h2> WHAT WE DO </h2>
 </div>
-<div class="container position-relative text-center">
-<div class="row PAGE">
+<div class="container text-center">
+<div class="row">
 <div class="col-md-4" id="design">
   <img src="assets/services_icons/design_icon.png" alt="design icon" id="designIcon">
+  <div id="designCaption">
   <p>DESIGN</p>
   </div>
-  <div id="clickDesign">
-    <h2>DESIGN</h2>
-      <p>Our design practice offers a full range of services including brand strategy, interaction and desing and user experience testing.</p>
-      <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure that what gets built is what is needed.</p>
+  </div>
+  <div class="col-md-4" id="clickDesign">
+    <p>Our design practice offers a full range of services including brand strategy, interaction and desing and user experience testing.</p>
+    <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure that what gets built is what is needed.</p>
   </div>
   <div class="col-md-4" id="dev">
   <img src="assets/services_icons/dev_icon.png" alt="dev icon" id="devIcon">
+  <div id="devCaption"
   <p>DEVELOPMENT</p>
   </div>
-  <div id="clickDev">
-    <h2>DEVELOPMENT</h2>
-        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-        <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as text-driven development and pair programing.</p>
+  </div>
+  <div class="col-md-4" id="clickDev">
+    <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+    <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as text-driven development and pair programing.</p>
   </div>
   <div class="col-md-4" id="productManagement" >
   <img src="assets/services_icons/product_icon.png" alt="product icon" id="productIcon">
+  <div id="productCaption">
   <p>PRODUCT MANAGEMENT</p>
   </div>
-  <div id="clickProduct">
-    <h2>PRODUCT MANAGEMENT</h2>
+  </div>
+  <div class="col-md-4" id="clickProduct">
     <p>Planning and development is interactive. Because we are constanly coding and testing, the products we build are always ready to go live.</p>
     <p>This interactive process allows for changes as business requirements evolve.</p>
   </div>
@@ -169,7 +173,7 @@
   <div class="container position-relative background_image text-center">
   <h2>CONTACT US</h2>
   <div class="col-md-12">
-    <form action="https://gmail.us4.list-manage.com/subscribe/post?u=64b2458ddad1b5ac6a4e16c28&amp;id=acbcfc3237" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <form>
       <div class="col-md-12">
         <input type="text" id="userName" name="name" placeholder="Name...">
       <input type="text" id="userEmail" name="email" placeholder="Email...">
@@ -180,6 +184,10 @@
         <textarea id="yourMessage" placeholder="Your message here..."></textarea>
         <br>
       </div>
+      <button type="submit" class="btn btn-info" ><b>SUBMIT</b></button>
+      <div class="thankYou">
+      <p><span id="thankYou"></span> we have received your message. Thank you for reaching out to us.</p>
+    </div>
     </form>
   </div>
 </div>
