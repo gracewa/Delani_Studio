@@ -7,7 +7,7 @@
     background-image: url('../assets/backgrounds/h_img.jpg');
   }
 
-#welcome{
+#welcome, #services{
   color: #ffffff;
 }
 
@@ -16,13 +16,8 @@
   position: absolute;
 }
 
-#aboutUs{
+#aboutUs, #whatWeDo, #contactUs, #portfolio, #socialMedia, #services{
   margin-top: 50px;
-}
-
-#services{
-  margin-top: 50px;
-  color: #ffffff;
 }
 
 #services .background_image {
@@ -32,14 +27,18 @@
   background-image: url('../assets/backgrounds/s_image.jpg');
 }
 
-#whatWeDo {
-  margin-top: 50px;
-}
-
 #clickDesign, #clickDev, #clickProduct {
   display: none;
 }
 
-.row PAGE {
+textarea {
+  width: 600px;
+  height: 300px;
+}
 
+#contactUs .background_image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../assets/backgrounds/c_image.jpg');
 }
