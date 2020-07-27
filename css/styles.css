@@ -1,3 +1,7 @@
+@-ms-viewport{
+    width: device-width;
+  }
+
 #welcome .background_image{
     height: 600px;
     width: auto;
@@ -41,4 +45,14 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../assets/backgrounds/c_image.jpg');
+}
+
+#contactUs h2 {
+  color:#ffffff;
+  text-align: center;
+}
+
+#hoverWork1, #hoverWork2, #hoverWork3, #hoverWork4, #hoverWork5, #hoverWork6, #hoverWork7, #hoverWork8 {
+  color: #ffffff;
+  display:none;
 }
