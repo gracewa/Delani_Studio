@@ -36,14 +36,10 @@
   margin-top: 50px;
 }
 
-#clickDesign {
+#clickDesign, #clickDev, #clickProduct {
   display: none;
 }
 
-#clickDev {
-  display: none;
-}
+.row PAGE {
 
-#clickProduct {
-  display: none;
 }
