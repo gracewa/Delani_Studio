@@ -1,4 +1,4 @@
-.background_picture{
+#welcome .background_image{
     height: 600px;
     width: auto;
     background-position: center;
@@ -18,4 +18,32 @@
 
 #aboutUs{
   margin-top: 50px;
+}
+
+#services{
+  margin-top: 50px;
+  color: #ffffff;
+}
+
+#services .background_image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../assets/backgrounds/s_image.jpg');
+}
+
+#whatWeDo {
+  margin-top: 50px;
+}
+
+#clickDesign {
+  display: none;
+}
+
+#clickDev {
+  display: none;
+}
+
+#clickProduct {
+  display: none;
 }
